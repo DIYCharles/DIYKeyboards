@@ -4,8 +4,12 @@
 //||__||||__||||__||||__||||__||||__||||__||||__||||__||||__||
 //|/__\||/__\||/__\||/__\||/__\||/__\||/__\||/__\||/__\||/__\|
 //
-//
-
+// https://github.com/DIYCharles
+// 
+// Keyboard I made that uses this code 
+// https://imgur.com/gallery/wa8qclP
+// I changed it up so each key connects to it's 
+// own pin instead of the row and collumn configuration
 
 // To wire up a key connect one of the pins of
 // the momentary switch to ground and the other pin
