@@ -14,3 +14,23 @@ To program click the verify and upload then quickly enter bootloader mode. If yo
 
 ## Enter Bootloader Mode 
 To enter bootloader mode on the pro micro short the rst pin to the ground pin twice quickly. This will keep it in bootloader mode for 8s.
+
+# Microsoft Teams Shortcut keys
+Accept video call    Ctrl+Shift+A
+
+Accept audio call    Ctrl+Shift+S
+
+Decline     call Ctrl+Shift+D
+
+Start audio call     Ctrl+Shift+C
+
+Start video call     Ctrl+Shift+U
+
+Toggle mute  Ctrl+Shift+M
+
+Toggle video    Ctrl+Shift+O
+
+Go to sharing toolbar   Ctrl+Shift+Space
+
+https://support.office.com/en-us/article/keyboard-shortcuts-for-microsoft-teams-2e8e2a70-e8d8-4a19-949b-4c36dd5292d2
+
