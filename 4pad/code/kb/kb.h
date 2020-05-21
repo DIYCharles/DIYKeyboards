@@ -3,6 +3,10 @@
 
 #include "quantum.h"
 
-#define KEYMAP( K00, K01, K02, K03, K05) { { K00, K01, K02, K03, K05 }}
+#define KEYMAP( \
+	K00, K01, K02, K03, K04  \
+) { \
+	{ K00,   K01,   K02,   K03,   K04 }  \
+}
 
 #endif
