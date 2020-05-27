@@ -3,7 +3,7 @@
 
 This is a build of a 1x4 Macropad with an ecoder using a Arduino Pro Micro and QMK Firmware 
 
-![alt text](https://github.com/DIYCharles/DIYKeyboards-/blob/master/photos/img1.jpg "img1.jpg")
+![alt text](https://raw.githubusercontent.com/DIYCharles/DIYKeyboards-/master/photos/img1.jpg "img1.jpg")
 
 Table of contents
 =================
@@ -21,11 +21,11 @@ Wiring
 
 I wired this in the COL2ROW diode configuration. How this works is each column is connected to its own pin then the other side of the switch is connected to a diode with the line on the far side. The other side of the diode is connected to the ends of all the other diodes in the same row.
 
-![alt text](https://github.com/DIYCharles/DIYKeyboards-/blob/master/photos/img3.jpg "img3.jpg")
+![alt text](https://raw.githubusercontent.com/DIYCharles/DIYKeyboards-/master/photos/img3.jpg "img3.jpg")
 
 The rotary encoder has 5 pins. The two on one side are a switch that is activated by pressing in the dial like a R3 on a game controller. The other side with 3 pins are connected to pins on the arduino with the middle pin connected to ground.
 
-![alt text](https://github.com/DIYCharles/DIYKeyboards-/blob/master/photos/img4.jpg "img4.jpg")
+![alt text](https://raw.githubusercontent.com/DIYCharles/DIYKeyboards-/master/photos/img4.jpg "img4.jpg")
 
 
 
@@ -37,13 +37,13 @@ Build
 
 I didn't put much thought into the design or build. There are 4 parts. They are held together by 4 M3x20mm screws and 8 M3 nuts. Install everything on the top plate and wire. Match the face plate with the base and cut the wires to size. Solder up the pro-micro and test. To get the M3 nuts to sit apply a soldering tip to them and melt them into the hole. 
 
-![alt text](https://github.com/DIYCharles/DIYKeyboards-/blob/master/photos/img5.jpg "img5.jpg")
+![alt text](https://raw.githubusercontent.com/DIYCharles/DIYKeyboards-/master/photos/img5.JPG "img5.jpg")
 
-![alt text](https://github.com/DIYCharles/DIYKeyboards-/blob/master/photos/img6.jpg "img6.jpg")
+![alt text](https://raw.githubusercontent.com/DIYCharles/DIYKeyboards-/master/photos/img6.JPG "img6.jpg")
 
-![alt text](https://github.com/DIYCharles/DIYKeyboards-/blob/master/photos/img7.jpg "img7.jpg")
+![alt text](https://raw.githubusercontent.com/DIYCharles/DIYKeyboards-/master/photos/img7.JPG "img7.jpg")
 
-![alt text](https://github.com/DIYCharles/DIYKeyboards-/blob/master/photos/img8.jpg "img8.jpg")
+![alt text](https://raw.githubusercontent.com/DIYCharles/DIYKeyboards-/master/photos/img8.JPG "img8.jpg")
 
 
 
@@ -108,7 +108,7 @@ Compile And Flash
 
 To compile move the files into your qmk directory under keyboards like this.
 
-![alt text](https://github.com/DIYCharles/DIYKeyboards-/blob/master/photos/img9.jpg "img9.jpg")
+![alt text](https://raw.githubusercontent.com/DIYCharles/DIYKeyboards-/master/photos/img9.jpg "img9.jpg")
 
 load up your MSYS2 MinGW 64-bit where qmk is installed and run 
 
@@ -118,11 +118,11 @@ $ qmk compile -kb kb -km default
 
 It should look like this
 
-![alt text](https://github.com/DIYCharles/DIYKeyboards-/blob/master/photos/img10.jpg "img10.jpg")
+![alt text](https://raw.githubusercontent.com/DIYCharles/DIYKeyboards-/master/photos/img10.jpg "img10.jpg")
 
 One complete under the /qmk-firmware/ will be a kb_default.hex
 
 Load up QMK Toolbox. Click open and choose the /qmk_firmware/kb_default.hex. Click autoflash. Connect your pro-micro via usb. To enter bootloader mode short the reset and ground pins. QMK Toolbox will auto detect it and flash it. It should look like this.
 
-![alt text](https://github.com/DIYCharles/DIYKeyboards-/blob/master/photos/img11.jpg "img11.jpg")
+![alt text](https://raw.githubusercontent.com/DIYCharles/DIYKeyboards-/master/photos/img11.png "img11.jpg")
 
