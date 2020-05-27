@@ -20,8 +20,12 @@
 #define MATRIX_COL_PINS { B3, B4, B1, B2, B5 }
 #define UNUSED_PINS
 
+#define ENCODERS_PAD_A { D1 }
+#define ENCODERS_PAD_B { E6 }
+#define ENCODER_DIRECTION_FLIP
+
 /* COL2ROW or ROW2COL */
-#define DIODE_DIRECTION ROW2COL
+#define DIODE_DIRECTION COL2ROW
 
 /* number of backlight levels */
 
